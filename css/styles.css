@@ -785,6 +785,10 @@ padding: 32px 0;
 
 .policy-checkbox:checked+.checkbox-policy-lable>
 .check-icon-span {
+  border-color: var(--color-interactive-hover);
+}
+.policy-checkbox:focus+.checkbox-policy-lable>
+.check-icon-span {
   background-color: var(--color-interactive-hover);
   border-color: var(--color-interactive-hover);
   border: none;
