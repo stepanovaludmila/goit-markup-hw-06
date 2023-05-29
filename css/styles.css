@@ -539,7 +539,7 @@ padding: 32px 0;
 }
 */
 .subscribe-submit {
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   display: flex;
   justify-content: center;
