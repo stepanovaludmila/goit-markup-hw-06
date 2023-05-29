@@ -783,16 +783,12 @@ padding: 32px 0;
   letter-spacing: 0.04em;
 }
 
-.policy-checkbox:focus+.checkbox-policy-lable>
-.check-icon-span {
-  border-color: var(--color-interactive-hover);
-}
 .policy-checkbox:checked+.checkbox-policy-lable>
 .check-icon-span {
   background-color: var(--color-interactive-hover);
-  border-color: var(--color-interactive-hover);
   border: none;
-  fill: var(--color-light);
+  border-color: var(--color-interactive-hover);
+   fill: var(--color-light);
   outline: var(--color-interactive-hover);
 }
 
