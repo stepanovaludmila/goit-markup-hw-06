@@ -466,8 +466,8 @@ padding: 32px 0;
 }
 
 .studio-social {
-  width: 208px;
-  height: 80px;
+ /* width: 208px;
+  height: 80px;*/
   margin-right: 80px;
 }
 
@@ -567,6 +567,7 @@ padding: 32px 0;
 
 .subscribe-icon {
   margin-left: 16px;
+  fill: var(--color-light);
 }
 /* ------------- MODAL WINDOW ------------- */
 
@@ -709,6 +710,7 @@ padding: 32px 0;
     color: rgba(46, 47, 66, 0.4);
     border: 1px solid rgba(46, 47, 66, 0.2);
     border-radius: 4px;
+    display: block;
     width: 100%;
     height: 120px;
     resize: none;
@@ -792,7 +794,8 @@ padding: 32px 0;
   outline: var(--color-interactive-hover);
 }
 
-.policy-checkbox:checked+.checkbox-policy-lable>.check-icon-span .check-icon {
+.policy-checkbox:checked+.checkbox-policy-lable>
+.check-icon-span .check-icon {
   background-color: var(--color-interactive-hover);
   border: none;
   fill: var(--color-light);
